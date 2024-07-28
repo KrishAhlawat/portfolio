@@ -18,23 +18,13 @@ export default function SkillsSection() {
           Tech Stack I pursue
         </div>
         <div className="w-full m-0 p-0 h-dvh">
-          {/* <div className="w-auto lg:h-svh">
-            <Spline scene="https://prod.spline.design/MarKEbZkSCUQbTn5/scene.splinecode" />
-          </div> */}
           <div className="mx-5 flex flex-nowrap overflow-x-auto SkillsSection lg:flex-wrap top-10 md:top-28 z-10 items-center justify-center lg:absolute bg-transparent">
             <div className="lg:hidden mr-60">
               <SkillsBox3 />
             </div>
-            {/* <SkillsBox1 />
-            <SkillsBox2 />
-            <SkillsBox3 />
-            <SkillsBox4 /> */}
             <SkillsBoxNew1 />
             <SkillsBoxNew2 />
             <SkillsBoxNew3 />
-            {/* <SkillsBoxNew2_1 />
-            <SkillsBoxNew2_2 />
-            <SkillsBoxNew2_3 /> */}
           </div>
         </div>
       </div>
