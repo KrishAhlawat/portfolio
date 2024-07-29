@@ -15,7 +15,7 @@ export default function SkillsBoxNew3() {
           <div className="w-auto mx-5">
             <div className="w-16 lg:w-24 h-16 lg:h-24">
               <img
-                src="\src\assets\python-logo-black-bg.jpeg"
+                src="/python-logo-black-bg.jpeg"
                 alt="python logo"
                 className="w-24"
               />
@@ -25,7 +25,7 @@ export default function SkillsBoxNew3() {
           <div className="w-auto mx-5">
             <div className="w-16 lg:w-24 h-16 lg:h-24">
               <img
-                src="\src\assets\c-language-logo-black-bg.jpeg"
+                src="/c-language-logo-black-bg.jpeg"
                 alt="c language logo"
                 className="w-24"
               />
