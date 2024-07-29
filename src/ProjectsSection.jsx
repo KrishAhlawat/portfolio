@@ -15,7 +15,7 @@ export default function ProjectsSection() {
             <div className="border-2 border-white rounded-lg mx-10 mb-10 md:w-auto">
               <div className="w-auto md:w-80 p-4 rounded-lg cursor-pointer">
                 <img
-                  src="\src\assets\EcoHarmony-homepage.png"
+                  src="/EcoHarmony-homepage.png"
                   alt="EcoHarmony Homepage"
                   className="rounded-lg"
                 />
@@ -45,7 +45,7 @@ export default function ProjectsSection() {
             <div className="border-2 border-white rounded-lg mx-10 mb-10 md:w-auto">
               <div className="w-auto md:w-80 p-4 rounded-lg cursor-pointer">
                 <img
-                  src="\src\assets\SimonSaysGame-homepage.png"
+                  src="/SimonSaysGame-homepage.png"
                   alt="Simon says game Homepage"
                   className="rounded-lg"
                 />
