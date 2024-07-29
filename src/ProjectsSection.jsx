@@ -9,7 +9,7 @@ export default function ProjectsSection() {
         </div>
         <div className="w-full m-0 p-0 h-svh relative">
           <div className="h-svh">
-            <Spline scene="https://prod.spline.design/TRQ5rvC2QmilAbqF/scene.splinecode" />
+{/*             <Spline scene="https://prod.spline.design/TRQ5rvC2QmilAbqF/scene.splinecode" /> */}
           </div>
           <div className="flex flex-wrap justify-center absolute top-20 bg-transparent w-full">
             <div className="border-2 border-white rounded-lg mx-10 mb-10 md:w-auto">
