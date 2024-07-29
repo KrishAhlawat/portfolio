@@ -11,7 +11,7 @@ export default function AboutSection() {
       </div>
       <div className="w-full m-0 p-0 h-svh relative">
         <div className="h-svh relative">
-          <Spline scene="https://prod.spline.design/Ae76Ct5ss8JoipLQ/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/Ae76Ct5ss8JoipLQ/scene.splinecode" /> */}
         </div>
         <div className="md:mx-40 block md:flex items-center justify-center z-1 absolute top-10 md:top-1/3 bg-transparent">
           <img

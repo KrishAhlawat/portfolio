@@ -14,7 +14,7 @@ export default function SkillsSection() {
         <div className="text-white p-10 text-3xl underline md:text-6xl text-center w-full font-bold bg-transparent z-10">
           Tech Stack I pursue
         </div>
-        <div className="w-full m-0 p-0 h-dvh">
+        <div className="w-full m-0 p-0 h-1/2 lg:h-svh">
           <div className="mx-5 flex flex-nowrap overflow-x-auto SkillsSection lg:flex-wrap top-10 md:top-28 z-10 items-center justify-center lg:absolute bg-transparent">
             <div className="lg:hidden mr-60">
               <SkillsBox3 />
