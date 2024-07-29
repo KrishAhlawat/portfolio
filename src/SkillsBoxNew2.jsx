@@ -15,7 +15,7 @@ export default function SkillsBoxNew2() {
           <div className="w-auto mx-5">
             <div className="w-16 lg:w-24 h-16 lg:h-24">
               <img
-                src="\src\assets\node-js-logo-black-bg.png"
+                src="/node-js-logo-black-bg.png"
                 alt="node js logo"
                 className="w-24"
               />
@@ -25,7 +25,7 @@ export default function SkillsBoxNew2() {
           <div className="w-auto mx-5">
             <div className="w-16 lg:w-24 h-16 lg:h-24">
               <img
-                src="\src\assets\new-express-js-logo-black-bg.webp"
+                src="/new-express-js-logo-black-bg.webp"
                 alt="express js logo"
                 className="w-24"
               />
