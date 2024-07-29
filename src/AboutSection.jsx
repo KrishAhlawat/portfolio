@@ -15,7 +15,7 @@ export default function AboutSection() {
         </div>
         <div className="md:mx-40 block md:flex items-center justify-center z-1 absolute top-10 md:top-1/3 bg-transparent">
           <img
-            src="\src\assets\WhatsApp Image 2024-07-23 at 21.02.30_bbf795e0.jpg"
+            src="/WhatsApp Image 2024-07-23 at 21.02.30_bbf795e0.jpg"
             alt="profile picture"
             className="h-60 md:h-96 mx-auto mt-16 md:mt-0 w-1/2 hover:scale-105 transition-all ease-in-out"
           />
