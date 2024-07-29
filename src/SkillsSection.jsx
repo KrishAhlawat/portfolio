@@ -6,9 +6,6 @@ import Spline from "@splinetool/react-spline";
 import SkillsBoxNew1 from "./SkillsBoxNew1";
 import SkillsBoxNew2 from "./SkillsBoxNew2";
 import SkillsBoxNew3 from "./SkillsBoxNew3";
-import SkillsBoxNew2_1 from "./SkillsBoxNew2_1";
-import SkillsBoxNew2_2 from "./SkillsBoxNew2_2";
-import SkillsBoxNew2_3 from "./SkillsBoxNew2_3";
 
 export default function SkillsSection() {
   return (
