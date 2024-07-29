@@ -26,7 +26,7 @@ export default function ContactSection() {
                   className="mr-5 opacity-60 hover:opacity-100 bg-transparent"
                   target="_blank"
                 >
-                  <img src="\src\assets\github.png" alt="github"></img>
+                  <img src="/github.png" alt="github"></img>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/krishahlawat/"
@@ -34,7 +34,7 @@ export default function ContactSection() {
                   target="_blank"
                 >
                   <img
-                    src="\src\assets\linkedin-app-white-icon.webp"
+                    src="/linkedin-app-white-icon.webp"
                     alt="linkedin"
                     className="w-8 h-auto"
                   ></img>
@@ -45,7 +45,7 @@ export default function ContactSection() {
                   target="_blank"
                 >
                   <img
-                    src="\src\assets\X_logo_2023_(white).png"
+                    src="/X_logo_2023_(white).png"
                     alt="x logo"
                     className="w-8 h-auto bg-transparent"
                   ></img>

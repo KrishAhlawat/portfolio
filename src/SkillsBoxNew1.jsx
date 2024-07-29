@@ -15,7 +15,7 @@ export default function SkillsBoxNew1() {
           <div className="w-auto mx-5">
             <div className="w-16 lg:w-24 h-16 lg:h-24">
               <img
-                src="\src\assets\react.svg"
+                src="/react-logo-black-and-white.png"
                 alt="react logo"
                 className="w-24"
               />
@@ -25,7 +25,7 @@ export default function SkillsBoxNew1() {
           <div className="w-auto mx-5">
             <div className="w-16 lg:w-24 h-16 lg:h-24">
               <img
-                src="\src\assets\tailwind-css-logo-black-bg.png"
+                src="/tailwind-css-logo-black-bg.png"
                 alt="tailwind logo"
                 className="w-24"
               />
