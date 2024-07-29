@@ -15,7 +15,11 @@ export default function SkillsBoxNew1() {
           <div className="w-auto mx-5">
             <div className="w-16 lg:w-24 h-16 lg:h-24">
               <img
+<<<<<<< HEAD
                 src="/react-logo-black-and-white.png"
+=======
+                src="/react.svg"
+>>>>>>> a67d5b0a61763d6927d74a5e78eb12baf2c1cf3e
                 alt="react logo"
                 className="w-24"
               />

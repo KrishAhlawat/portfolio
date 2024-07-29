@@ -29,7 +29,7 @@ export default function ProjectsSection() {
                       target="_blank"
                     >
                       <img
-                        src="\src\assets\github.png"
+                        src="/github.png"
                         alt="github logo"
                         className="text-white bg-transparent"
                       />
@@ -56,7 +56,7 @@ export default function ProjectsSection() {
                   <div className="text-white cursor-pointer transition ease-in-out 1s hover:-translate-y-1 hover:scale-110 hover:bg-white-500 duration-100">
                     <a href="https://github.com/KrishAhlawat/Simon-Says-Game" target="_blank">
                       <img
-                        src="\src\assets\github.png"
+                        src="/github.png"
                         alt="github logo"
                         className="text-white bg-transparent"
                       />
