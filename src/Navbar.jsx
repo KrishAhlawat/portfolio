@@ -44,37 +44,36 @@ export default function Navbar() {
     });
   };
 
-  
   let openHomeFromNav = () => {
     let section = document.getElementById("Home");
     section.scrollIntoView({ behavior: "smooth" });
     let dialog = document.getElementById("nav-dialog");
     dialog.classList.add("hidden");
-  }
+  };
   let openAboutFromNav = () => {
     let section = document.getElementById("About");
     section.scrollIntoView({ behavior: "smooth" });
     let dialog = document.getElementById("nav-dialog");
     dialog.classList.add("hidden");
-  }
+  };
   let openSkillsFromNav = () => {
     let section = document.getElementById("Skills");
     section.scrollIntoView({ behavior: "smooth" });
     let dialog = document.getElementById("nav-dialog");
     dialog.classList.add("hidden");
-  }
+  };
   let openProjectsFromNav = () => {
     let section = document.getElementById("Projects");
     section.scrollIntoView({ behavior: "smooth" });
     let dialog = document.getElementById("nav-dialog");
     dialog.classList.add("hidden");
-  }
+  };
   let openContactFromNav = () => {
     let section = document.getElementById("Contact");
     section.scrollIntoView({ behavior: "smooth" });
     let dialog = document.getElementById("nav-dialog");
     dialog.classList.add("hidden");
-  }
+  };
 
   return (
     <>
@@ -92,7 +91,10 @@ export default function Navbar() {
         </div>
       </nav> */}
       <nav className="w-full sm:w-screen h-auto bg-transparent flex justify-between px-4 md:justify-between md:py-5 navbar md:px-12 fixed Navbar z-50">
-        <div className="font-bold text-3xl text-white bg-transparent place-content-center cursor-pointer" onClick={openHome}>
+        <div
+          className="font-bold text-3xl text-white bg-transparent place-content-center cursor-pointer"
+          onClick={openHome}
+        >
           KRISH
         </div>
         <div
@@ -133,7 +135,10 @@ export default function Navbar() {
           className={"sm:w-screen fixed z-10 lg:hidden hidden md:p-4 inset-0"}
         >
           <div className="flex justify-between px-4">
-            <div className="font-bold text-3xl text-white place-content-center cursor-pointer" onClick={openHome}>
+            <div
+              className="font-bold text-3xl text-white place-content-center cursor-pointer"
+              onClick={openHome}
+            >
               KRISH
             </div>
             <div
@@ -150,16 +155,19 @@ export default function Navbar() {
               <MenuOption MenuOption={"Home"} menuTarget={"#Home"} />
             </div>
             <div className="bg-transparent" onClick={openAboutFromNav}>
-              <MenuOption MenuOption={"Who am I?"} menuTarget={"#About"}/>
+              <MenuOption MenuOption={"Who am I?"} menuTarget={"#About"} />
             </div>
             <div className="bg-transparent" onClick={openSkillsFromNav}>
-              <MenuOption MenuOption={"Skills"} menuTarget={"#Skills"}/>
+              <MenuOption MenuOption={"Skills"} menuTarget={"#Skills"} />
             </div>
             <div className="bg-transparent" onClick={openProjectsFromNav}>
-              <MenuOption MenuOption={"Projects"} menuTarget={"#Projects"}/>
+              <MenuOption MenuOption={"Projects"} menuTarget={"#Projects"} />
+            </div>
+            <div className="bg-transparent" onClick={downloadResume}>
+              <MenuOption MenuOption={"Resume"} />
             </div>
             <div className="bg-transparent" onClick={openContactFromNav}>
-              <MenuOption MenuOption={"Get in touch"} menuTarget={"#Contact"}/>
+              <MenuOption MenuOption={"Get in touch"} menuTarget={"#Contact"} />
             </div>
           </div>
         </div>
