@@ -1,5 +1,4 @@
 import Spline from "@splinetool/react-spline";
-import { useState } from "react";
 import React, { useRef } from "react";
 import ContactForm from "./ContactForm";
 
@@ -14,7 +13,6 @@ export default function ContactSection() {
       </div>
       <div className="lg:flex">
         <div className="text-white lg:w-1/2">
-          {/* <section> */}
           <div class="py-8 mt-10 lg:py-16 px-4 mx-5 lg:mx-16 max-w-screen-md">
             <div className="flex justify-left align-middle">
               <div className="mr-5 mb-5 font-bold text-center mt-1">
@@ -52,9 +50,10 @@ export default function ContactSection() {
                 </a>
               </div>
             </div>
-            <ContactForm />
+            <div>
+              <ContactForm />
+            </div>
           </div>
-          {/* </section> */}
         </div>
         <div className="lg:w-1/2">
           <Spline scene="https://prod.spline.design/AME5I0YfetL6wIKn/scene.splinecode" />
