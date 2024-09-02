@@ -9,7 +9,7 @@ export default function Navbar() {
 
   let downloadResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1Lx8xEnn-S2-SoXZK1GvesFKWq6Pw22tE/view?usp=sharing"
+      "https://drive.google.com/file/d/1pXFXIIQu2Z1CxrTexL9QNN1CTDoKFuyq/view?usp=drive_link"
     );
   };
 
